@@ -1,82 +1,75 @@
 * {
-    margin: 0;
-  }
-  
-  body {
-    background-color: rgb(19, 134, 96);
-    font-family: serif;
-  }
-  
-  .navigation-bar {
-      padding: 50px;
-      display: flex;
-      justify-content: center;
-      background-color: rgb(63, 145, 119);
-    }
-  
-  .navigation a {
-    justify-content: flex-end;
-    font-size: 25px;
-    text-decoration: none;
-    background-color: rgb(32, 119, 79);
-    color: aliceblue;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 15px;
-  }
-  
-  .navigation a:hover {
-    background-color: black;
-    color: white;
-  }
-  
-  .container{
-    border: 100px solid rgb(49, 145, 113);
-    border-radius: 10px;
-    display: grid;
-    gap: 25px;
-    background-color: rgb(49, 145, 113);
-    justify-content: center;
-  }
-  
-  .container p {
-    font-size: 65px;
-    color: black
-  }
-  
-  .container label{
-    font-size: 30px;
-  }
-  
-  input{
-    font-size: 20px;
-    padding: 25px;
-    border-radius: 100px;
-  }
-  
-  button{
-    font-size: 25px;
-    background-color: rgba(25, 163, 110, 0.61);
-    color: rgb(248, 242, 242);
-    border: none;
-    border-radius: 8px;
-    margin:10px;
-    padding: 10px;
-  }
-  
-  button:hover{
-    background-color: black;
-    color: white;
-  }
-  
-  img{
-    width: 100%;
-    border-radius: 5px;
-  }
-  
-  
-  
-  
-  
-  
-  
+  margin: 0;
+}
+
+body {
+  background-color: rgb(19, 134, 96);
+  font-family: serif;
+}
+
+.navigation-bar {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(63, 145, 119);
+}
+
+.navigation a {
+  justify-content: flex-end;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: rgb(32, 119, 79);
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  border: 100px solid rgb(49, 145, 113);
+  border-radius: 10px;
+  display: grid;
+  gap: 25px;
+  background-color: rgb(49, 145, 113);
+  justify-content: center;
+}
+
+.container p {
+  font-size: 65px;
+  color: black;
+}
+
+.container label {
+  font-size: 30px;
+}
+
+input {
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 100px;
+}
+
+button {
+  font-size: 25px;
+  background-color: rgba(25, 163, 110, 0.61);
+  color: rgb(248, 242, 242);
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
