@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course With revoU</title>
+    <link rel="stylesheet" href="/5-feb-24-mochammadtaufikfaturrohman/css/style.css">
 </head>
 <body>
     <!-- NAVIGATION -->
@@ -14,5 +15,25 @@
         </nav>
       </header>
       <hr />
+
+         <!-- content -->
+    <div class="container-bar">
+      <div class="container">
+        <p>Kalkulator Suhu</p>
+        <label for="celcius">Celcius (°C)</label>
+        <input type="number" id="celcius" placeholder="celcius" />
+        <div class="button">
+          <button class="button-one" onclick="convertCelciusToFahrenheit()">Konversi</button>
+          <button class="button-two" onclick="clearField()">Reset</button>
+          <button class="button-three" onclick="reverseConversion()">Reverse</button>
+        </div>
+        <label for="fehrenheit">Fehrenheit (°F)</label>
+        <input type="number" id="fehrenheit" placeholder="fehrenheit" />
+        <img src="/5-feb-24-mochammadtaufikfaturrohman/img/rumus.png" alt="">
+      </div>
+      </div>
+
+      <!-- link js -->
+      <script src="js/index.js"></script>
 </body>
 </html>
